@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="master.css">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,700,0,200" />
+      <link rel="icon" type="image/x-icon" href="midia\Logo_White.png">
+      <title>CYBR_port_</title>
+   </head>
+   <body>
+      <video autoplay muted loop id="background" height="100%">
+         <source src="midia\Background.mp4" type="video/mp4">
+      </video>
+      <nav class="sidebar">
+         <img class="logo" src="midia\Logo.png" alt="Logo" >
+         <button id="btnNav" class="hamburger"><i class="material-symbols-outlined">
+            menu
+         </i></button>
+         <ul id="ulNav" class="hidden">
+            <li><button class="tab-btn cybr-btn" onclick="openTab(event, 'content-area-about')">
+               Sobre Mim<span aria-hidden></span>
+               <span aria-hidden class="cybr-btn__glitch">error_</span>
+               </button>
+            </li>
+            <li><button class="tab-btn cybr-btn" onclick="openTab(event, 'content-area-skills')">
+               Qualificações<span aria-hidden></span>
+               <span aria-hidden class="cybr-btn__glitch">error_</span>
+               </button>
+            </li>
+            <li><button class="tab-btn cybr-btn" onclick="openTab(event, 'content-area-contact')">
+               Contato<span aria-hidden></span>
+               <span aria-hidden class="cybr-btn__glitch">error_</span>
+               </button>
+            </li>
+         </ul>
+      </nav>
+      <main>
+         <section id="content-area-about">
+            <div class="sec-title ">
+               <h1>BEM-VINDO_</h1>
+            </div>
+            <div class="description">
+               <div id="summary" >
+                  <h2>Me apresentando!</h2>
+                  <p>Olá, meu nome é Matheus Henrique, tenho 21 anos e estou em busca de uma oportunidade de emprego e aprendizado e na área da programação. Após 2 anos de trabalho na área administrativa (logística) de uma empresa multinacional, resolvi retornar aos estudos na área da programação. Sou apaixonado por arte em geral, ver filmes, jogar e principalmente ouvir MÚSICAS E PODCASTS! Motivado por idéias, procurando aprender e ensinar algo novo todo dia. Topo qualquer tipo de desafio, buscando sempre contemplar detalhes que a maioria das pessoas ignoram na resolução de problemas.</p>
+               </div>
+               <img src="midia\Photo.png" alt="Foto." class="photo">
+            </div>
+         </section>
+         <section id="content-area-skills">
+            <div class="sec-title">
+               <h1>QUALIFICAÇÕES_</h1>
+            </div>
+            <div class="description gap">
+               <div id="skills">
+                  <h2>Hard Skills</h2>
+                  <ul>
+                     <li>HTML - Intermediário</li>
+                     <li>CSS - Intermediário</li>
+                     <li>JavaScript - Iniciante</li>
+                     <li>Excel - Avançado</li>
+                     <li>VBA - Intermediário</li>
+                     <li>Photoshop - Iniciante</li>
+                     <li>Hardware - Intermediário</li>
+                  </ul>
+                  <h2>Soft Skills</h2>
+                  <ul>
+                     <li>Comunicativo e Assertivo</li>
+                     <li>Adaptativo e Flexivel</li>
+                     <li>Proativo</li>
+                     <li>Organizado</li>
+                  </ul>
+               </div>
+               <div id="schooling">
+                  <h2>Escolaridade</h2>
+                  <ul>
+                     <li><p>Cursando Analise e Desenvolvimento de sistemas (PREVISÃO DE TÉRMINO 2025) na FATEC Athur de Azevedo de Mogi Mirim - SP.</p></li>
+                     <li><p>Ensino Médio integrado ao Técnico de Informatica para Internet concluído em 2018 na ETEC Pedro Ferreira Alves de Mogi Mirim - SP.</p></li>
+                  </ul>
+               </div>
+               <div>
+                  <h2>Experiência Profissional</h2>
+                  <ul>
+                     <li>Tenneco Indústria de Autopeças (Julho 2020 - Agosto 2022)</li>
+                     <ul>
+                        <li>Triangulação Fiscal</li>
+                        <li>Pagamento de Faturas</li>
+                        <li>Desenvolvimento e atualização de relatorios da área de PCP</li>
+                     </ul>
+                  </ul>
+               </div>   
+               <div>
+                  <h2>Idiomas</h2>
+                  <ul>
+                     <li>Português - Nativo</li>
+                     <li>Inglês - Fluente (Experiência em conversação)</li>
+                  </ul>
+               </div>   
+            </div>
+         </section>
+         <section id="content-area-contact">
+            <div class="sec-title">
+               <h1>CONTATO_</h1>
+            </div>
+            <div class="description gap">
+               <div class="links">
+                  <a href="midia\CV - Matheus Henrique.pdf" download="CV - Matheus Henrique.pdf" class="cybr-btn cybr-size">
+                     Currículo<span aria-hidden></span>
+                     <span aria-hidden class="cybr-btn__glitch">error_</span>
+                  </a>
+                  <h2>Telefone:</h2>
+                  <p>(19) 99505-4678</p>
+               </div>
+               <div class="links">
+                  <a class="cybr-btn cybr-size" href="https://github.com/CitrusMH" target="_blank">
+                     GitHub<span aria-hidden></span>
+                     <span aria-hidden class="cybr-btn__glitch">error_</span>
+                  </a>
+                  <h2>E-mail pessoal:</h2>
+                  <p>klamatheus@hotmail.com</p>
+               </div>
+               <div class="links">
+                  <a class="cybr-btn cybr-size" href="https://www.linkedin.com/in/matheus-melo-867a84186/" target="_blank">
+                     Linkedin<span aria-hidden></span>
+                     <span aria-hidden class="cybr-btn__glitch">error_</span>
+                  </a>
+                  <h2>E-mail Fatec:</h2><p>matheus.silva466@fatec.sp.gov.br</p>
+               </div>
+            </div>
+         </section>
+      </main>
+   </body>
+   <script src="script.js"></script>
+</html>
