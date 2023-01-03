@@ -25,7 +25,13 @@ function openTab(event, idTab) {
 
 const btnNav = document.querySelector('#btnNav');
 const divNav = document.querySelector('#ulNav');
+const navButtons = document.querySelectorAll('#nav-btn');
 
 btnNav.addEventListener('click', function (){
     divNav.classList.toggle('hidden')
 })
+
+navButtons.forEach(button => button.addEventListener('click', function (){
+    divNav.classList.toggle('hidden')
+}))
+
