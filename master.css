@@ -301,7 +301,6 @@ nav ul li a {
 #content-area-about,
 #content-area-skills,
 #content-area-contact {
-	display: none;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
@@ -317,6 +316,15 @@ nav ul li a {
 	}
 }
 
+#content-area-about{
+	display: flex;
+}
+
+#content-area-skills,
+#content-area-contact {
+	display: none;
+}
+
 .sec-title h1 {
 	font-size: 140px;
 	color: #fff;
@@ -327,24 +335,20 @@ nav ul li a {
 	margin-bottom: 20px;
 	letter-spacing: .1em;
 	text-shadow: 
-		rgb(150, 150, 150) 4px 4px, 
-		rgb(58, 58, 58) 8px 8px;
+		rgb(150, 150, 150) 3px 3px, 
+		rgb(58, 58, 58) 6px 6px;
 	animation:
 		typing 1s steps(40, end),
 		blink-caret .75s step-end infinite;
 }@media (max-width:1100px){
 	.sec-title h1 {
-		font-size: 60px;
+		font-size: 50px;
 		margin: 30px 0;
 	}
-	#content-area-about .sec-title h1{
-		font-size: 46px;
-	}
-}@media (max-width:375px){
-	#content-area-about .sec-title h1{
+	#content-area-skills .sec-title h1{
 		font-size: 42px;
 	}
-	#content-area-about p {
+	#content-area-skills p {
 		font-size: 24px;
 	}
 }
