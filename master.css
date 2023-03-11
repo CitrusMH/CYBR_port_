@@ -320,10 +320,15 @@ nav ul li a {
 	display: flex;
 }
 
+#content-area-about p{
+	margin-bottom: 30px;
+}
+
 #content-area-skills,
 #content-area-contact {
 	display: none;
 }
+
 
 .sec-title h1 {
 	font-size: 140px;
@@ -342,7 +347,7 @@ nav ul li a {
 		blink-caret .75s step-end infinite;
 }@media (max-width:1100px){
 	.sec-title h1 {
-		font-size: 50px;
+		font-size: 60px;
 		margin: 30px 0;
 	}
 	#content-area-skills .sec-title h1{
@@ -385,11 +390,11 @@ h2{
 	justify-content: center;
 	flex-wrap: wrap;
 	font-size: 30px;
-	margin: 0 110px;
+	margin: 0 200px;
 }@media (max-width:1100px){
 	.description {
 		font-size: 24px;
-		margin: 0 60px;
+		margin: 0 24px;
 	}
 }
 
